@@ -8,8 +8,6 @@ import axios from "axios";
 import { getMealByCategory,getMealByName, getMealByArea } from "./utils/mealMethods";
 
 export const NavContext = createContext(true);
-// export const category = createContext("Vegetarian");
-// export const search = createContext("")
 
 function App() {
   const [open, setOpen] = useState(true);
