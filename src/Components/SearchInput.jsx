@@ -16,7 +16,7 @@ const SearchInput = () => {
               <input
                 type="text"
                 className="w-full rounded-lg border border-gray-400 p-2"
-                placeholder="Search ..."
+                placeholder="Search your meal..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
